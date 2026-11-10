@@ -7,7 +7,7 @@ const projectsSource = [
         "description": "In this book I explain how to use R for biologist, in a practical and easy-to-follow manner.",
     },
     {
-        "title": "Pyabnotebook",
+        "title": "Pylabnotebook",
         "url": "https://github.com/miotsdata/pylabnotebook",
         "img": "images/labnotebook.png",
         "alt": "Labnotebook project image",

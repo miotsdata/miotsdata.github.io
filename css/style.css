@@ -52,16 +52,6 @@ ul {
 
 /* class selectors */
 
-.coding-language-td {
-    width: 15%;
-}
-
-.coding-language-td p {
-    margin-right: 2.5rem;
-    text-align: right;
-    width: 90%;
-}
-
 .container-main-title {
     font-size: 2rem;
     margin: 0 0 1.8rem 0;
@@ -117,16 +107,40 @@ p.job-location {
     margin: 0.45rem auto;
 }
 
-.level-bar {
-    display: inline-block;
-    height: 0.5rem;
-    margin-bottom: 0.08rem;
-    width: 10%;
+.inline-link {
+    color: #FBD666;
+    text-decoration: underline;
 }
 
-.level-text {
-    display: inline-block;
-    margin-left: 0.45rem;
+.skill-group {
+    margin: 0 auto 1.5rem auto;
+    width: 90%;
+}
+
+.skill-group-title {
+    color: #B7D6F8;
+    font-size: 1.2rem;
+    margin: 0 0 0.6rem 0;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    list-style: none;
+    margin: 0;
+}
+
+.skill-tag {
+    border: 1px solid #585B5D;
+    border-radius: 1rem;
+    margin: 0;
+    padding: 0.25rem 0.8rem;
+}
+
+.skill-tag-strong {
+    border-color: #FBD666;
+    color: #FBD666;
 }
 
 .main {
@@ -201,10 +215,6 @@ p.job-location {
     font-size: 1.2rem;
 }
 
-.second-column-coding-skill {
-    line-height: 1rem;
-}
-
 .social {
     overflow: auto;
     display: block;
@@ -215,33 +225,10 @@ p.job-location {
     color: #bdbdbd;
     float: left;
     margin: 4% 0% 2% 4%;
-    width: 20%;
+    width: 16%;
 }
 
 /* id selectors */
-#advanced-bar {
-    background-color: #008F00;
-}
-
-#advanced-text {
-    color: #008F00;
-}
-
-#base-bar {
-    background-color: #70FFD2;
-}
-
-#base-text {
-    color: #70FFD2;
-}
-
-#coding-skills-table {
-    width: 100%;
-}
-
-#coding-skills-table tr {
-    height: 1.8rem;
-}
 
 #credits {
     font-size: 0.7rem;
@@ -259,14 +246,6 @@ p.job-location {
     font-size: 2.75rem;
     margin-top: 2%;
     text-align: center;
-}
-
-#intermediate-bar {
-    background-color: #B7D6F8;
-}
-
-#intermediate-text {
-    color: #B7D6F8;
 }
 
 #last-left {
@@ -292,8 +271,6 @@ p.job-location {
     display: block;
     margin-top: 2%;
 }
-
-
 
 /* media queries */
 
@@ -343,7 +320,7 @@ p.job-location {
     .social {
         overflow: auto;
         display: block;
-        width: 20%;
+        width: 25%;
     }
 }
 
